@@ -1,0 +1,49 @@
+.box {
+  background-color: #FFF;
+  margin-top: 1rem;
+  max-width: 1700px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  height: 30rem;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.button_next {
+  background-color: #22AC14;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  width: 7rem;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+
+.form-item {
+  margin-top: 2rem;
+  display: flex;
+}
+.inputs{
+  margin-left: 2rem;
+  border: none;
+  border-bottom: 2px solid #E4E4E4;
+}
+
+.button_back {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  width: 7rem;
+  margin-top: 30px;
+  margin-left: 200px;
+}

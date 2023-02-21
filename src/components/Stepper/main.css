@@ -1,0 +1,138 @@
+/* .steps {
+   
+    background-color: #FFF;
+    max-width: 1700px;
+    margin-right: auto; 
+    margin-left:  auto; 
+    border-radius: 8px;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.stepscolor{
+    background-color: #8ECB60;
+   border-radius: 5px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.stepname{
+    color: white;
+    padding-top: 0.25rem;
+}
+.stepname:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+
+    margin-top: -50px;
+    margin-left: 2px;
+    left: 100%;
+    z-index: 1;
+  }*/
+
+/* .row{
+    border: 2px white;
+}  */
+/* Global CSS, you probably don't need that */
+
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+
+.container {
+	background-color: #FFF;
+    max-width: 1700px;
+    margin-right: auto; 
+    margin-left:  auto; 
+    border-radius: 8px;
+    margin-top: 3rem;
+   
+    padding-bottom: 3rem;
+}
+
+
+
+
+/* Breadcrups CSS */
+.arrow-steps{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.arrow-steps .step {
+	font-size: 14px;
+	text-align: center;
+	color: White;
+	cursor: default;
+	margin: 0 3px;
+	padding: 10px 10px 10px 30px;
+	min-width: 32%;
+	float: left;
+	position: relative;
+	background-color: #8ECB60;
+	
+	user-select: none; 
+  transition: background-color 0.2s ease;
+}
+.arrow-steps .step.active{
+color: black;
+
+}
+.active{
+    background-color: black;
+}
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: -17px;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 17px solid #8ECB60;	
+	z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+	right: auto;
+	left: 0;
+	border-left: 17px solid #fff;	
+	z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+	border: none;
+}
+.arrow-steps .step:last-child:after{
+	border: none;
+}
+.arrow-steps .step:first-child {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.arrow-steps .step:last-child{
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.arrow-steps .step span {
+	position: relative;
+}
+
+
+
+
+
+
+ 
